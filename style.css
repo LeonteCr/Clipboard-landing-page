@@ -1,0 +1,63 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(./images/bg-header-mobile.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1.5em;
+
+}
+
+.head {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: grid;
+    gap: 2em;
+}
+
+.h-title {
+    opacity: .75;
+}
+
+.h-describe {
+    font-size: 1rem;
+    opacity: .5;
+    line-height: 1.5rem;
+}
+
+.download {
+    display: grid;
+    margin: 0 auto;
+    gap: 1.5em;
+    width: 100%;
+}
+
+.ios,
+.mac {
+    padding: 1em 3.5em;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+   
+}
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    box-shadow: 0px 3px hsl(171, 66%, 35%);
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    box-shadow: 0px 3px hsl(233, 54%, 53%);
+}
