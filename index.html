@@ -24,8 +24,8 @@
       </p>
     </div>
     <div class="download">
-      <button class="ios">Download for iOS</button>
-      <button class="mac">Download for Mac</button>
+      <a href="#" class="button_link"><button class="ios">Download for iOS</button></a>
+      <a href="#" class="button_link"><button class="mac">Download for Mac</button></a>
     </div>
   </header>
 
@@ -37,20 +37,22 @@
         meaning you can access your snippets immediately on all your
         devices. Our Mac and iOS apps will help you organize everything.
       </p>
-      <div class="computer"><img src="./images/image-computer.png" alt=""></div>
     </div>
-    <div class="advantages">
-      <div class="quick">
-        <h3 class="quick-title">Quick Search</h3>
-        <p class="quick-describe">Easily search your snippets by content, category, web address, application, and more.</p>
-      </div>
-      <div class="cloud">
-        <h3 class="cloud-title">iCloud Sync</h3>
-        <p class="cloud-describe">Instantly saves and syncs snippets across all your devices.</p>
-      </div>
-      <div class="history">
-        <h3 class="history-title">Complete History</h3>
-        <p class="history-describe">Retrieve any snippets from the first moment you started using the app.</p>
+    <div class="computer-flexbox">
+      <div class="computer"><img class="monitor" src="./images/image-computer.png" alt=""></div>
+      <div class="advantages">
+        <div class="quick">
+          <h3 class="quick-title">Quick Search</h3>
+          <p class="quick-describe">Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
+        <div class="cloud">
+          <h3 class="cloud-title">iCloud Sync</h3>
+          <p class="cloud-describe">Instantly saves and syncs snippets across all your devices.</p>
+        </div>
+        <div class="history">
+          <h3 class="history-title">Complete History</h3>
+          <p class="history-describe">Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
       </div>
     </div>
     <h2 class="acces-title">Access Clipboard anywhere</h2>
@@ -90,8 +92,8 @@
       <h2 class="for">Clipboard for iOS and Mac OS</h2>
       <p class="download-describe">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
       <div class="download">
-        <button class="ios">Download for iOS</button>
-        <button class="mac">Download for Mac</button>
+        <a href="#" class="button_link"><button class="ios">Download for iOS</button></a>
+        <a href="#" class="button_link"><button class="mac">Download for Mac</button></a>
       </div>
     </div>
   </main>
@@ -99,22 +101,31 @@
   <footer>
     <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
     <ul>
-      <li><a href="#">FAQs</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Press Kit</a></li>
-      <li><a href="#">Install Guide</a></li>
+      <div class="faq">
+        <li><a class="foot_link" href="#">FAQs</a></li>
+      </div>
+      <div class="contact">
+        <li><a class="foot_link" href="#">Contact Us</a></li>
+      </div>
+      <div class="privacy">
+        <li><a class="foot_link" href="#">Privacy Policy</a></li>
+      </div>
+      <div class="press">
+        <li><a class="foot_link" href="#">Press Kit</a></li>
+      </div>
+      <div class="install">
+        <li><a class="foot_link" href="#">Install Guide</a></li>
+      </div>
     </ul>
     <div class="social">
-      <img src="./images/icon-facebook.svg" alt="facebook profile">
-      <img src="./images/icon-twitter.svg" alt="twitter profile">
-      <img src="./images/icon-instagram.svg" alt="instagram profile">
+      <a href="#" class="social--link"><img src="./images/icon-facebook.svg" alt="facebook profile"></a>
+      <a href="" class="social--link"><img src="./images/icon-twitter.svg" alt="twitter profile"></a>
+      <a href="" class="social--link"><img src="./images/icon-instagram.svg" alt="instagram profile"></a>
     </div>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Leonte Cristian</a>.
-    </p>
   </footer>
-
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Leonte Cristian</a>.
+  </p>
 </body>
 </html>
