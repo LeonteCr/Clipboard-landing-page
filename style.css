@@ -1,37 +1,66 @@
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* =============
+    Global styles
+    ============== */
 
 * {
     box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 body {
-    font-family: 'Bai Jamjuree', sans-serif;
+    
     background-image: url(./images/bg-header-mobile.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 1.5em;
-
+    
 }
+
+header,
+main {
+    padding: 0 1.5em;
+}
+
+
+
+/* ==========
+    Typography
+    ========== */
+
+h1,
+h2,
+h3 {
+    opacity: .75;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    opacity: .5;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.mac,
+.ios {
+    font-size: 1rem;
+}
+
+/* =========
+    Layout
+    ========= */
 
 .intro {
     text-align: center;
     margin-top: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 10em;
     display: grid;
     gap: 2em;
-}
-
-.h-title {
-    opacity: .75;
-}
-
-.h-describe {
-    font-size: 1rem;
-    opacity: .5;
-    line-height: 1.5rem;
 }
 
 .download {
@@ -46,8 +75,7 @@ body {
     padding: 1em 3.5em;
     border-radius: 2rem;
     border: none;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1rem;
+    
    
 }
 .ios {
@@ -61,3 +89,97 @@ body {
     color: white;
     box-shadow: 0px 3px hsl(233, 54%, 53%);
 }
+
+.content {
+    text-align: center;
+    
+}
+
+.computer img {
+    width: 100%;
+    margin: 3em auto 2em auto;
+}
+
+.advantages {
+    display: grid;
+    gap: 1.7em;
+    margin-bottom: 9em;
+}
+
+.advantages h3 {
+    margin:0;
+}
+
+
+.device img {
+    width: 100%;
+    margin: 3em auto 5em auto;
+}
+
+.workflow {
+    display: grid;
+    gap: 2em;
+    margin: 5.5em auto;
+}
+
+.charge-title {
+    margin-bottom: 0;
+}
+
+.icon {
+    margin-bottom: 2.5em ;
+}
+
+.partners-logo {
+    display: grid;
+    gap: 4em;
+    margin: 7em auto;
+}
+
+.download-describe {
+    margin-bottom: 3em;
+}
+
+.last-section {
+    margin: 10em auto;
+}
+
+footer {
+   text-align: center;
+   display: grid;
+   gap: 2em;
+   background-color: hsl(204, 26%, 96%);
+   padding-top: 3em;
+}
+
+.logo img {
+    width: 3rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+  
+    line-height: 3rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+}
+
+.attribution { font-size: 0.7rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
