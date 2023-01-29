@@ -165,6 +165,7 @@ footer {
    padding: 1.5em 0;
    gap: 2em;
    background-color: hsl(204, 26%, 96%);
+   width: 100vw;
 }
 
 .logo img {
@@ -199,7 +200,7 @@ a {
 .attribution { font-size: 0.7rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (min-width:870px) {
+@media (min-width:999px) {
     body {
         background-image: url(./images/bg-header-desktop.png);
         background-position: top center;
@@ -260,6 +261,7 @@ a {
 
    .workflow {
         display: flex;
+        justify-content: center;
         gap: 1em;
         max-width: 1200px;
     }
